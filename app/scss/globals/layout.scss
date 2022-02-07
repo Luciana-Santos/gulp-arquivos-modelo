@@ -1,0 +1,10 @@
+@use '../util' as *;
+
+.container {
+  max-width: rem(960);
+  margin: 0 auto;
+
+  @include breakpoint-down(medium) {
+    padding: 0 rem(20);
+  }
+}
