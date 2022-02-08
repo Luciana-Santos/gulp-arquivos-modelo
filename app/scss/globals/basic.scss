@@ -1,7 +1,7 @@
 *, *::before, *::after {
   margin: 0;
   padding: 0;
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 
 img {
@@ -14,4 +14,13 @@ h1, h2, h3 {
 
 a {
   text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  min-height: 100vh;
+  line-height: 1.5;
 }
